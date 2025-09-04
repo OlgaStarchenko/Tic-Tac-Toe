@@ -1,0 +1,77 @@
+body {
+  font-family: "Fredoka", sans-serif;
+  background: #5a1e76;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #2b0040;
+  border-radius: 25px;
+  padding: 50px 80px;
+}
+.result {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 40px;
+}
+.result__item {
+  background: #48d2fe;
+  width: 155px;
+  height: 139px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.result__item:nth-child(2) {
+  background: #bcdbf9;
+}
+.result__item:nth-child(3) {
+  background: #e2be00;
+}
+.result__name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.result__value {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.board {
+  flex-direction: column;
+  display: flex;
+  gap: 28px;
+}
+.row {
+  display: flex;
+  gap: 28px;
+}
+.cell {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background: #43115b;
+  font-weight: 400;
+  font-size: 94px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 14px;
+}
+.x {
+  color: #48d2fe;
+}
+.o {
+  color: #e2be00;
+}
